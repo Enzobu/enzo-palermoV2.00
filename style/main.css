@@ -1,0 +1,23 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border-style: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  font-family: "Gabarito", cursive;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.body {
+  background: linear-gradient(to bottom, #101c29, #2c3d4b);
+}/*# sourceMappingURL=main.css.map */

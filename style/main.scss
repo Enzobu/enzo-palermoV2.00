@@ -8,9 +8,8 @@
     border-style: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: "Inter", sans-serif;
-    color: #000000;
-    font-family: 'Gabarito', cursive;;
+    font-family: 'Gabarito', cursive;
+    color: #fff;
 }
 
 html, body {
@@ -20,4 +19,99 @@ html, body {
 
 .body {
     background: linear-gradient(to bottom, #101c29, #2c3d4b);
+
+    & .header {
+        & nav {
+            & .nav-list {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 1rem 2rem;
+
+                & .left-link {
+                    width: 16rem;
+
+                    & .sub-nav-list {
+                        & img {
+                            width: 14rem;
+                        }
+                    }
+                }
+                & .center-link {
+                    width: 40%;
+                    & .sub-nav-list {
+                        display: flex;
+                        justify-content: space-evenly;
+
+                        & .nav-item{
+                            & a {
+                                position: relative;
+
+                                &:after {
+                                    content: "";
+                                    bottom: -.18rem;
+                                    width: 0;
+                                    right: -5%;
+                                    position: absolute;
+                                    height: 0.125rem;
+                                    background: #fff;
+                                    transition: .4s width;
+                                }
+        
+                                &:hover {
+                                    &:after {
+                                        width: 110%;
+                                        left: -5%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+                & .right-link {
+                    width: 16rem;
+
+                    & .sub-nav-list {
+                        display: flex;
+                        justify-content: space-around;
+
+                        & .nav-item {
+                            &:first-child {
+                                & a {
+                                    padding: .5rem 1rem;
+                                    border-radius: 10px;
+                                    border: solid 1px #fff;
+                                    text-align: center;
+                                    transition: .25s;
+
+                                    &:hover {
+                                        background: #fff;
+                                        color: #000;
+                                    }
+                                }
+                            }
+                            &:last-child {
+                                & a {
+                                    padding: .5rem 1rem;
+                                    border-radius: 10px;
+                                    background: #fff;
+                                    color: #000;
+                                    border: solid 1px #fff;
+                                    text-align: center;
+                                    transition: .25s;
+
+                                    &:hover {
+                                        color: #fff;
+                                        background: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
 }

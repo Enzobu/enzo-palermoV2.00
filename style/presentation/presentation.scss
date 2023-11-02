@@ -1,0 +1,134 @@
+.body {
+    & .presentation {
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20rem 8rem;
+        grid-template-areas:
+            "left right"
+            "bottom bottom";
+        gap: 10px;
+        align-items: center;
+        justify-items: center;
+        padding: 1rem;
+
+        & .left-presentation {
+            grid-area: left;
+            margin: 1rem 2rem;
+
+            & .img-presentation {
+                & img {
+                    max-width: 16rem;
+                    max-height: 16rem;
+                    border-radius: 20px;
+                    position: relative;
+                    transition: .15s;
+
+                    &:hover {
+                        box-shadow: #cdd3d3 0 0 6px;
+                    }
+                }
+    
+                & .cadre-image {
+                    width: 16rem;
+                    height: 16rem;
+                    border: solid 5px #fff;
+                    border-radius: 20px;
+                    position: absolute;
+                    $translate: 20px;
+                    transform: translate($translate, $translate);
+                }
+            }
+        }
+        & .right-presentation {
+            grid-area: right;
+            max-width: 36rem;
+            width: 100%;
+            padding: 0 0 1rem 0;
+            background: #1e1e1e;
+            border-radius: 10px;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            grid-template-rows: auto 1fr;
+            grid-template-areas: 
+                "boutons boutons"
+                "lignes texte";
+            transition: .15s;
+
+            &:hover {
+                box-shadow: #1e1e1e 0 0 8px;
+            }
+
+            & .boutons {
+                grid-area: boutons;
+                padding: .75rem .5rem;
+                display: grid;
+                grid-template-columns: repeat(3, 25px);
+                justify-items: center;
+                align-items: center;
+
+                & .bouton {
+                    width: 1rem;
+                    height: 1rem;
+                    border-radius: 50%;
+                    transition: .15s;
+
+                    &.bouton-rouge {
+                        background: #ff5f5a;
+                    }
+                    &.bouton-jaune {
+                        background: #ffbe2e;
+                    }
+                    &.bouton-vert {
+                        background: #2aca44;
+                    }
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+            & .nums-ligne {
+                grid-area: lignes;
+                padding: 0 .75rem 0 1.25rem;
+                
+                & .num-ligne {
+                    color: #858585;
+                    cursor: default;
+                    user-select: none;
+                    transition: .1s;
+
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+            }
+            & .texte-container {
+                grid-area: texte;
+                width: 90%;
+
+                & .texte {
+                    text-align: justify;
+                    color: #d4d4d4;
+                    cursor: default;
+                    user-select: none;
+                    font-family: 'consolas', 'IBM Plex Mono', monospace;
+                }
+            }
+        }
+        & .bottom-presentation {
+            grid-area: bottom;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1250px) {
+    .body {
+        & .presentation {
+            grid-template-columns: auto 1fr;
+            grid-template-rows: 20rem 8rem;
+
+        }
+    }
+}

@@ -18,12 +18,12 @@
             </p>
             <div class="card-buttons">
                 <a href="">
-                <div class="card-button">
+                    <div class="card-button">
                         <img src="/images/projets/github.svg" alt="">
                     </div>
                 </a>
                 <a href="/projet-a-venir">
-                <div class="card-button">
+                    <div class="card-button">
                         <img src="/images/projets/voir.svg" alt="">
                     </div>
                 </a>
@@ -41,12 +41,12 @@
             </p>
             <div class="card-buttons">
                 <a href="">
-                <div class="card-button">
+                    <div class="card-button">
                         <img src="/images/projets/github.svg" alt="">
                     </div>
                 </a>
                 <a href="/projet-a-venir">
-                <div class="card-button">
+                    <div class="card-button">
                         <img src="/images/projets/voir.svg" alt="">
                     </div>
                 </a>
@@ -64,12 +64,12 @@
             </p>
             <div class="card-buttons">
                 <a href="">
-                <div class="card-button">
+                    <div class="card-button">
                         <img src="/images/projets/github.svg" alt="">
                     </div>
                 </a>
                 <a href="/projet-a-venir">
-                <div class="card-button">
+                    <div class="card-button">
                         <img src="/images/projets/voir.svg" alt="">
                     </div>
                 </a>
@@ -86,12 +86,12 @@
             </p>
             <div class="card-buttons">
                 <a href="">
-                <div class="card-button">
+                    <div class="card-button">
                         <img src="/images/projets/github.svg" alt="">
                     </div>
                 </a>
                 <a href="/projet-a-venir">
-                <div class="card-button">
+                    <div class="card-button">
                         <img src="/images/projets/voir.svg" alt="">
                     </div>
                 </a>
@@ -107,12 +107,12 @@
             </p>
             <div class="card-buttons">
                 <a href="">
-                <div class="card-button">
+                    <div class="card-button">
                         <img src="/images/projets/github.svg" alt="">
                     </div>
                 </a>
                 <a href="/projet-a-venir">
-                <div class="card-button">
+                    <div class="card-button">
                         <img src="/images/projets/voir.svg" alt="">
                     </div>
                 </a>
@@ -129,12 +129,12 @@
             </p>
             <div class="card-buttons">
                 <a href="">
-                <div class="card-button">
+                    <div class="card-button">
                         <img src="/images/projets/github.svg" alt="">
                     </div>
                 </a>
                 <a href="/projet-a-venir">
-                <div class="card-button">
+                    <div class="card-button">
                         <img src="/images/projets/voir.svg" alt="">
                     </div>
                 </a>

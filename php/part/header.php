@@ -2,7 +2,7 @@
     <ul class="nav-list">
         <li class="left-link">
             <ul class="sub-nav-list">
-                <li class="nav-item"><a href="/" class="link-nav-item"><img src="/images/logo_sans_fond.png" alt="Logo Enzo Palermo"></a></li>
+                <li class="nav-item"><a href="/" class="link-nav-item"><img src="/images/header/logo_sans_fond.png" alt="Logo Enzo Palermo"></a></li>
             </ul>
         </li>
         <li class="center-link">
@@ -15,8 +15,8 @@
         </li>
         <li class="right-link">
             <ul class="sub-nav-list">
-                <li class="nav-item"><a href="/contact" class="link-nav-item">Contact</a></li>
-                <li class="nav-item"><a href="/login" class="link-nav-item">Login</a></li>
+                <li class="nav-item"><a href="/contact" class="link-nav-item scaleLink"><div class="scale-link">Contact</div></a></li>
+                <li class="nav-item"><a href="/login" class="link-nav-item scaleLink"><div class="scale-link">Login</div></a></li>
             </ul>
         </li>
     </ul>

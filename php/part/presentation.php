@@ -21,8 +21,14 @@
         <p class="texte" id="texte"></p>
     </div>
     <script src="/js/defilementText.js"></script>
-    <script src="/js/confettiss.js"></script>
 </div>
-<div class="bottom-presentation">
-
-</div>  
+    <a href="https://www.linkedin.com/in/enzo-palermo-544720253" target="blank"><img src="/images/presentation/linkedin.svg" alt="" class="logo-reseaux"></a>
+    <a href="https://www.instagram.com/enzo.plrm/" target="blank"><img src="/images/presentation/instagram.svg" alt="" class="logo-reseaux"></a>
+    <a href="https://enzo-palermo.com" target="blank"><img src="/images/presentation/globe.svg" alt="" class="logo-reseaux"></a>
+    <a href="https://github.com/Enzobu" target="blank"><img src="/images/presentation/github.svg" alt="" class="logo-reseaux"></a>
+</div>
+<div class="bottom-center-presentation">
+    <a href="#projets">
+        <div class="bouton">En savoir d'avantage !</div>
+    </a>
+</div>

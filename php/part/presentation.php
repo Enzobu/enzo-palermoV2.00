@@ -22,6 +22,7 @@
     </div>
     <script src="/js/defilementText.js"></script>
 </div>
+<div class="top-right-presentation">
     <a href="https://www.linkedin.com/in/enzo-palermo-544720253" target="blank"><img src="/images/presentation/linkedin.svg" alt="" class="logo-reseaux"></a>
     <a href="https://www.instagram.com/enzo.plrm/" target="blank"><img src="/images/presentation/instagram.svg" alt="" class="logo-reseaux"></a>
     <a href="https://enzo-palermo.com" target="blank"><img src="/images/presentation/globe.svg" alt="" class="logo-reseaux"></a>

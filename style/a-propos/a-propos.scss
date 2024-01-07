@@ -1,0 +1,8 @@
+.body {
+    & .main {
+        & .a-propos {
+            background: #ffffff;
+            height: 50vh;
+        }
+    }
+}

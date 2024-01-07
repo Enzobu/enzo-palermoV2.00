@@ -1,7 +1,7 @@
 <div class="left-presentation">
     <div class="img-presentation">
         <div class="cadre-image"></div>
-        <img src="/images/PALERMO_enzo.jpg" alt="">
+        <img src="/images/presentation/PALERMO_enzo.jpg" alt="" id="img">
     </div>
 </div>
 <div class="right-presentation">

@@ -2,11 +2,11 @@
 
 const MAPPING = [
     '' => 'php/index.php',
-    'login' => 'login.php',
+    'login' => 'php/login.php',
     'contact' => 'php/contact.php',
     'cv' => 'php/cv.php',
     '404' => 'php/404.php',
-    'projet-a-venir' => 'projet-a-venir.php'
+    'projet-a-venir' => 'php/projet-a-venir.php'
 ];
 
 function getFileFromUrl(){

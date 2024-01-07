@@ -1,0 +1,99 @@
+.body {
+  background: linear-gradient(to bottom, #101c29, #2c3d4b);
+  height: 100vh;
+}
+.body .main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.body .main .login-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  border-radius: 1.75rem;
+  background: rgba(255, 255, 255, 0.0392156863);
+  box-shadow: rgba(255, 255, 255, 0.062745098) 0 0 10px;
+}
+.body .main .login-form-container .login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body .main .login-form-container .login-form .form-titre {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.body .main .login-form-container .login-form .input-container {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+}
+.body .main .login-form-container .login-form .input-container .input {
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
+  padding-right: 1rem;
+  background: rgba(255, 255, 255, 0.2392156863);
+  border-radius: 1.5rem;
+}
+.body .main .login-form-container .login-form .input-container .input input {
+  outline: 0;
+  border: none;
+  height: 3rem;
+  background: none;
+  color: #dbdbdb;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.body .main .login-form-container .login-form .input-container .input input::-moz-placeholder {
+  color: #16212c;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.body .main .login-form-container .login-form .input-container .input input::placeholder {
+  color: #16212c;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.body .main .login-form-container .login-form .input-container .container-img-form-login {
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body .main .login-form-container .login-form .input-container .container-img-form-login .img-form-login {
+  width: 2rem;
+}
+.body .main .login-form-container .login-form .input-container.img-right .input {
+  padding-left: 1rem;
+  padding-right: 5rem;
+}
+.body .main .login-form-container .login-form .input-container.img-right .container-img-form-login {
+  margin-left: 14.5rem;
+}
+.body .main .login-form-container .login-form input[type=submit] {
+  padding: 1rem 5rem;
+  background: #ffc400;
+  border-radius: 3rem;
+  border: none;
+  text-align: center;
+  color: #000;
+  transition: 0.2s;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+.body .main .login-form-container .login-form input[type=submit]:hover {
+  transform: scale(1.04);
+  box-shadow: #916f00 0 0 8px;
+}
+.body .main .login-form-container .login-form input[type=submit]:active {
+  transform: scale(1);
+}/*# sourceMappingURL=login.css.map */

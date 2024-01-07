@@ -1,10 +1,10 @@
-<div class="left-presentation">
+<div class="top-left-presentation">
     <div class="img-presentation">
         <div class="cadre-image"></div>
         <img src="/images/presentation/PALERMO_enzo.jpg" alt="" id="img">
     </div>
 </div>
-<div class="right-presentation">
+<div class="top-center-presentation">
     <div class="boutons">
         <div class="bouton bouton-rouge"></div>
         <div class="bouton bouton-jaune"></div>

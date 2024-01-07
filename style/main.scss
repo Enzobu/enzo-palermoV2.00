@@ -12,21 +12,20 @@
     color: #fff;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
 .body {
-    background: linear-gradient(to bottom, #101c29, #2c3d4b);
-
     & .header {
+        position: absolute;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+
         & nav {
             & .nav-list {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-                padding: 1rem 2rem;
+                padding: 1rem 1rem;
+                width: 100%;
 
                 & .left-link {
                     width: 16rem;
@@ -49,7 +48,7 @@ html, body {
 
                                 &:after {
                                     content: "";
-                                    bottom: -.18rem;
+                                    bottom: -.4rem;
                                     width: 0;
                                     right: -5%;
                                     position: absolute;
@@ -77,33 +76,41 @@ html, body {
                         justify-content: space-around;
 
                         & .nav-item {
-                            &:first-child {
-                                & a {
+                            & a {
+                                & .scale-link {
                                     padding: .5rem 1rem;
                                     border-radius: 10px;
-                                    border: solid 1px #fff;
                                     text-align: center;
                                     transition: .25s;
 
-                                    &:hover {
-                                        background: #fff;
-                                        color: #000;
+                                    &:active {
+                                        transform: scale(0.9);
+                                    }
+                                }
+                            }
+                            &:first-child {
+                                & a {
+                                    & .scale-link {
+                                        border: solid 1px #fff;
+    
+                                        &:hover {
+                                            background: #fff;
+                                            color: #000;
+                                        }
                                     }
                                 }
                             }
                             &:last-child {
                                 & a {
-                                    padding: .5rem 1rem;
-                                    border-radius: 10px;
-                                    background: #fff;
-                                    color: #000;
-                                    border: solid 1px #fff;
-                                    text-align: center;
-                                    transition: .25s;
-
-                                    &:hover {
-                                        color: #fff;
-                                        background: none;
+                                    & .scale-link {
+                                        background: #fff;
+                                        color: #000;
+                                        border: solid 1px #fff;
+                                        
+                                        &:hover {
+                                            color: #fff;
+                                            background: none;
+                                        }
                                     }
                                 }
                             }
@@ -113,5 +120,32 @@ html, body {
                 }
             }
         }
+    }
+    & .main {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas: 
+            "prese"
+            "projets"
+            "a-propos"
+            "cv";
+
+        & .presentation {
+            grid-area: prese;
+        }
+        & .projets {
+            grid-area: projets;
+        }
+        & .a-propos {
+            grid-area: a-propos;
+        }
+        & .cv {
+            grid-area: cv;
+        }
+    }
+    & .footer {
+        background: #000000;
+        height: 20vh;
     }
 }

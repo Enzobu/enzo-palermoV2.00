@@ -12,19 +12,18 @@
   color: #fff;
 }
 
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-.body {
-  background: linear-gradient(to bottom, #101c29, #2c3d4b);
+.body .header {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
 }
 .body .header nav .nav-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
+  width: 100%;
 }
 .body .header nav .nav-list .left-link {
   width: 16rem;
@@ -44,7 +43,7 @@ html, body {
 }
 .body .header nav .nav-list .center-link .sub-nav-list .nav-item a:after {
   content: "";
-  bottom: -0.18rem;
+  bottom: -0.4rem;
   width: 0;
   right: -5%;
   position: absolute;
@@ -63,27 +62,50 @@ html, body {
   display: flex;
   justify-content: space-around;
 }
-.body .header nav .nav-list .right-link .sub-nav-list .nav-item:first-child a {
+.body .header nav .nav-list .right-link .sub-nav-list .nav-item a .scale-link {
   padding: 0.5rem 1rem;
   border-radius: 10px;
-  border: solid 1px #fff;
   text-align: center;
   transition: 0.25s;
 }
-.body .header nav .nav-list .right-link .sub-nav-list .nav-item:first-child a:hover {
+.body .header nav .nav-list .right-link .sub-nav-list .nav-item a .scale-link:active {
+  transform: scale(0.9);
+}
+.body .header nav .nav-list .right-link .sub-nav-list .nav-item:first-child a .scale-link {
+  border: solid 1px #fff;
+}
+.body .header nav .nav-list .right-link .sub-nav-list .nav-item:first-child a .scale-link:hover {
   background: #fff;
   color: #000;
 }
-.body .header nav .nav-list .right-link .sub-nav-list .nav-item:last-child a {
-  padding: 0.5rem 1rem;
-  border-radius: 10px;
+.body .header nav .nav-list .right-link .sub-nav-list .nav-item:last-child a .scale-link {
   background: #fff;
   color: #000;
   border: solid 1px #fff;
-  text-align: center;
-  transition: 0.25s;
 }
-.body .header nav .nav-list .right-link .sub-nav-list .nav-item:last-child a:hover {
+.body .header nav .nav-list .right-link .sub-nav-list .nav-item:last-child a .scale-link:hover {
   color: #fff;
   background: none;
+}
+.body .main {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "prese" "projets" "a-propos" "cv";
+}
+.body .main .presentation {
+  grid-area: prese;
+}
+.body .main .projets {
+  grid-area: projets;
+}
+.body .main .a-propos {
+  grid-area: a-propos;
+}
+.body .main .cv {
+  grid-area: cv;
+}
+.body .footer {
+  background: #000000;
+  height: 20vh;
 }/*# sourceMappingURL=main.css.map */

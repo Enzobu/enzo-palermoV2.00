@@ -1,0 +1,10 @@
+.body {
+  background: linear-gradient(to bottom, #101c29, #2c3d4b);
+  height: 100vh;
+}
+.body .main .title {
+  text-align: center;
+  margin-top: 25vh;
+  font-size: 3rem;
+  font-weight: 600;
+}/*# sourceMappingURL=projet-a-venir.css.map */

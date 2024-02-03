@@ -94,6 +94,14 @@
                                     & img {
                                         width: 2rem;
                                     }
+
+                                    &.no-github {
+                                        background: #616161;
+
+                                        &:hover {
+                                            box-shadow: #4b4b4b 0 0 8px;
+                                        }
+                                    }
                                 }
                             }
                         }

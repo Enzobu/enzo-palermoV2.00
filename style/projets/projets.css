@@ -85,6 +85,12 @@
 .body .main .projets .carousel-container .carousel .card .card-buttons a .card-button img {
   width: 2rem;
 }
+.body .main .projets .carousel-container .carousel .card .card-buttons a .card-button.no-github {
+  background: #616161;
+}
+.body .main .projets .carousel-container .carousel .card .card-buttons a .card-button.no-github:hover {
+  box-shadow: #4b4b4b 0 0 8px;
+}
 .body .main .projets .carousel-container .carousel::-webkit-scrollbar {
   display: none;
 }

@@ -1,4 +1,102 @@
 .body .main .a-propos {
   background: #ffffff;
-  height: 50vh;
-}/*# sourceMappingURL=a-propos.css.map */
+  padding: 2rem 0.5rem 4rem 0.5rem;
+}
+.body .main .a-propos .title {
+  color: #000000;
+  grid-area: title;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.body .main .a-propos .a-propos-container {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  grid-template-rows: auto;
+  align-items: center;
+  gap: 4rem;
+}
+.body .main .a-propos .a-propos-container .a-propos-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.body .main .a-propos .a-propos-container .a-propos-description .title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #000000;
+}
+.body .main .a-propos .a-propos-container .a-propos-description .content {
+  padding-left: 2rem;
+  color: #000000;
+  max-width: 60%;
+  text-align: justify;
+}
+.body .main .a-propos .a-propos-container .cloud-container .title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #000000;
+}
+.body .main .a-propos .a-propos-container .cloud-container .cloud {
+  width: 100%;
+  height: 18rem;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(2, 50%);
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
+}
+.body .main .a-propos .a-propos-container .cloud-container .cloud .skill {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.body .main .a-propos .a-propos-container .cloud-container .cloud .skill img.skill-icon {
+  position: absolute;
+  max-height: 3rem;
+  max-width: 3rem;
+  transition: 0.3s ease-out;
+}
+.body .main .a-propos .a-propos-container .cloud-container .cloud .skill .description-skill {
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.8rem;
+  transition: 0.3s;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+.body .main .a-propos .a-propos-container .cloud-container .cloud .skill .description-skill .name-skill {
+  font-weight: 600;
+  color: #ffffff;
+  transition: 0.3s;
+}
+.body .main .a-propos .a-propos-container .cloud-container .cloud .skill:hover img.skill-icon {
+  transform: translateY(-2rem);
+}
+.body .main .a-propos .a-propos-container .cloud-container .cloud .skill:hover .description-skill {
+  color: #000000;
+}
+.body .main .a-propos .a-propos-container .cloud-container .cloud .skill:hover .description-skill .name-skill {
+  color: #000000;
+}
+
+/*
+
+HTML
+CSS
+SASS / SCSS
+JavaScript
+PHP
+MySQL
+MongoDB
+Linux
+Python
+Flutter
+
+*//*# sourceMappingURL=a-propos.css.map */

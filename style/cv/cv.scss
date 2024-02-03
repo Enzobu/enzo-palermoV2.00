@@ -2,7 +2,49 @@
     & .main {
         & .cv {
             background: #2b343c;
-            height: 25vh;
+            padding: 1rem .5rem 3rem .5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 3rem;
+
+            & .title  {
+                grid-area: title;
+                font-size: 3rem;
+                text-align: center;
+            }
+
+            & .cv-container {
+                display: grid;
+                width: 100%;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: auto;
+                gap: 1rem;
+                align-items: center;
+                justify-items: center;
+
+                & .description {
+                    max-width: 20rem;
+                    text-align: justify;
+                }
+
+                & .download-button {
+                    background: #ffc400;
+                    padding: 1rem;
+                    border-radius: 1rem;
+                    color: #000;
+                    transition: .2s;
+    
+                    &:hover {
+                        transform: scale(1.04);
+                        box-shadow: #916f00 0 0 8px;
+                    }
+                    &:active {
+                        transform: scale(1);
+                    }
+                }
+            }
         }
     }
 }

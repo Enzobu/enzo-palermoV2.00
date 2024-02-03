@@ -12,6 +12,10 @@
     color: #fff;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .body {
     & .header {
         position: absolute;
@@ -146,6 +150,101 @@
     }
     & .footer {
         background: #000000;
-        height: 20vh;
+        display: grid;
+        grid-template-areas: 
+            "footer-logo footer-contact footer-social-media";
+        grid-template-columns: 20% 40% 40%;
+        grid-template-rows: auto;
+        gap: 4rem;
+        align-items: center;
+        justify-items: center;
+        padding: 2.5rem .5rem;
+
+        & .footer-logo {
+            grid-area: footer-logo;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 2rem;
+
+            & img {
+                max-width: 100%;
+            }
+        }
+
+        $icon-size: 2rem;
+        & .footer-contact {
+            grid-area: footer-contact;
+
+            & .title {
+                font-size: 1.4rem;
+                font-weight: 600;
+                margin-bottom: 1.5rem;
+            }
+
+            & .contacts {
+                padding-left: 1rem;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                & .contact-img {
+                    max-width: $icon-size;
+                }
+
+                & .contact {
+                    display: flex;
+                    align-items: center;
+                    gap: .5rem;
+                }
+
+                & .footer-link {
+                    &:hover {
+                        & .contact {
+                            & .contact-content {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        & .footer-social-media {
+            grid-area: footer-social-media;
+
+            & .title {
+                font-size: 1.4rem;
+                font-weight: 600;
+                margin-bottom: 1.5rem;
+            }
+
+            & .social-medias {
+                padding-left: 1rem;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                & .social-media-img {
+                    max-width: $icon-size;
+                }
+
+                & .social-media {
+                    display: flex;
+                    align-items: center;
+                    gap: .5rem;
+                }
+
+                & .footer-link {
+                    &:hover {
+                        & .social-media {
+                            & .social-media-content {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }

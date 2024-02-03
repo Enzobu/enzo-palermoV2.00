@@ -17,12 +17,12 @@
                 SafeBike : Un système de clignottant et bien plus pour vélo.
             </p>
             <div class="card-buttons">
-                <a href="">
-                    <div class="card-button">
+                <a>
+                    <div class="card-button no-github">
                         <img src="/images/projets/github.svg" alt="">
                     </div>
                 </a>
-                <a href="/projet-a-venir">
+                <a href="/projet-a-venir" target="blank">
                     <div class="card-button">
                         <img src="/images/projets/voir.svg" alt="">
                     </div>
@@ -40,12 +40,12 @@
                 projet de l'année.
             </p>
             <div class="card-buttons">
-                <a href="">
+                <a href="https://github.com/Enzobu/hotel-neptune" target="blank">
                     <div class="card-button">
                         <img src="/images/projets/github.svg" alt="">
                     </div>
                 </a>
-                <a href="/projet-a-venir">
+                <a href="/projet-a-venir" target="blank">
                     <div class="card-button">
                         <img src="/images/projets/voir.svg" alt="">
                     </div>
@@ -63,12 +63,12 @@
                 durant un cours et un porjet.
             </p>
             <div class="card-buttons">
-                <a href="">
+                <a href="https://github.com/Enzobu/Hi-mix" target="blank">
                     <div class="card-button">
                         <img src="/images/projets/github.svg" alt="">
                     </div>
                 </a>
-                <a href="/projet-a-venir">
+                <a href="/projet-a-venir" target="blank">
                     <div class="card-button">
                         <img src="/images/projets/voir.svg" alt="">
                     </div>
@@ -85,12 +85,12 @@
                 que les projets réalisés.
             </p>
             <div class="card-buttons">
-                <a href="">
+                <a href="https://github.com/Enzobu/enzo-palermo.com" target="blank">
                     <div class="card-button">
                         <img src="/images/projets/github.svg" alt="">
                     </div>
                 </a>
-                <a href="/projet-a-venir">
+                <a href="/projet-a-venir" target="blank">
                     <div class="card-button">
                         <img src="/images/projets/voir.svg" alt="">
                     </div>
@@ -106,12 +106,12 @@
                 Stage en entreprise : Création du site de l'entreprise Climat-2030
             </p>
             <div class="card-buttons">
-                <a href="">
+                <a href="https://github.com/ViceVersa34/Climat-2030" target="blank">
                     <div class="card-button">
                         <img src="/images/projets/github.svg" alt="">
                     </div>
                 </a>
-                <a href="/projet-a-venir">
+                <a href="https://climat-2030.org" target="blank">
                     <div class="card-button">
                         <img src="/images/projets/voir.svg" alt="">
                     </div>
@@ -128,12 +128,12 @@
                 des formation en ligne.
             </p>
             <div class="card-buttons">
-                <a href="">
-                    <div class="card-button">
+                <a>
+                    <div class="card-button no-github">
                         <img src="/images/projets/github.svg" alt="">
                     </div>
                 </a>
-                <a href="/projet-a-venir">
+                <a href="/projet-a-venir" target="blank">
                     <div class="card-button">
                         <img src="/images/projets/voir.svg" alt="">
                     </div>
@@ -149,4 +149,5 @@
         <div class="selector" id="selector5"></div>
         <div class="selector" id="selector6"></div>
     </div>
+    <script src="/js/projectCarrousel.js"></script>
 </div>

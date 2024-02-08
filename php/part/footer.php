@@ -12,14 +12,18 @@
                 </div>
             </div>
         </a>
-        <div class="contact">
-            <img src="/images/footer/telephoner.svg" alt="" class="contact-img">
-            <div class="contact-content">07 68 63 87 62</div>
-        </div>
-        <div class="contact">
-            <img src="/images/footer/accueil.svg" alt="" class="contact-img">
-            <div class="contact-content">St Clément de Rivière</div>
-        </div>
+        <a href="tel:+33768638762" class="footer-link">
+            <div class="contact">
+                <img src="/images/footer/telephoner.svg" alt="" class="contact-img">
+                <div class="contact-content">07 68 63 87 62</div>
+            </div>
+        </a>
+        <a href="https://www.google.fr/maps/place/43%C2%B039'19.6%22N+3%C2%B050'16.9%22E/@43.6554572,3.8358728,17z/data=!3m1!4b1!4m4!3m3!8m2!3d43.655454!4d3.838038?entry=ttu" class="footer-link" target="blanck">
+            <div class="contact">
+                <img src="/images/footer/accueil.svg" alt="" class="contact-img">
+                <div class="contact-content">St Clément de Rivière</div>
+            </div>
+        </a>
     </div>
 </div>
 <div class="footer-social-media">

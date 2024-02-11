@@ -7,10 +7,10 @@
         </li>
         <li class="center-link">
             <ul class="sub-nav-list">
-                <li class="nav-item"><a href="#top" class="link-nav-item">Accueil</a></li>
-                <li class="nav-item"><a href="#projets" class="link-nav-item">Projets</a></li>
-                <li class="nav-item"><a href="#a-propos" class="link-nav-item">À propos</a></li>
-                <li class="nav-item"><a href="#cv" class="link-nav-item">CV</a></li>
+                <li class="nav-item"><a href="/#top" class="link-nav-item">Accueil</a></li>
+                <li class="nav-item"><a href="/#projets" class="link-nav-item">Projets</a></li>
+                <li class="nav-item"><a href="/#a-propos" class="link-nav-item">À propos</a></li>
+                <li class="nav-item"><a href="/#cv" class="link-nav-item">CV</a></li>
             </ul>
         </li>
         <li class="right-link">

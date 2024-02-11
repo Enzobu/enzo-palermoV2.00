@@ -116,7 +116,7 @@
             <div class="carousel-box">
                 <div class="title">Climat-2030.org</div>
                 <div class="card-image">
-                    <img src="/images/projets/climat-2030.png" alt="">
+                    <img src="/images/projets/climat-2030.PNG" alt="">
                 </div>
                 <p class="card-description">
                     Stage en entreprise : Création du site de l'entreprise Climat-2030
@@ -141,7 +141,7 @@
             <div class="carousel-box">
                 <div class="title">Workshop SN2</div>
                 <div class="card-image">
-                    <img src="/images/projets/learn-it.png" alt="">
+                    <img src="/images/projets/learn-it.PNG" alt="">
                 </div>
                 <p class="card-description">
                     Workshop : Projet de début d'année : Création de Learn-it : Un site web proposant

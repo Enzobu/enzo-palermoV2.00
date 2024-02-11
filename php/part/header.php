@@ -15,7 +15,7 @@
         </li>
         <li class="right-link">
             <ul class="sub-nav-list">
-                <li class="nav-item"><a href="/contact" class="link-nav-item scaleLink"><div class="scale-link">Contact</div></a></li>
+                <li class="nav-item"><a href="/#contact" class="link-nav-item scaleLink"><div class="scale-link">Contact</div></a></li>
                 <li class="nav-item"><a href="/login" class="link-nav-item scaleLink"><div class="scale-link">Login</div></a></li>
             </ul>
         </li>

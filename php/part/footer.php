@@ -26,7 +26,7 @@
         </a>
     </div>
 </div>
-<div class="footer-social-media">
+<div class="footer-social-media" id="contact">
     <div class="title">Me retrouver</div>
     <div class="social-medias">
         <a href="" class="footer-link">

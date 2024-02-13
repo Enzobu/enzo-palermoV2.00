@@ -74,16 +74,4 @@
             </div>
         </div>
     </div>
-    <!-- <script src="/js/mouvementLogo.js"></script> -->
 </div>
-
-<!-- Langage de balisage pour créer des pages web structurées et sémantiques.
-Langage de style permettant de mettre en forme et de styliser les pages web.
-Extension de CSS avec des fonctionnalités étendues et une syntaxe plus concise.
-Langage de programmation côté client pour rendre les pages web interactives et dynamiques.
-Langage de script côté serveur pour développer des applications web dynamiques.
-Système de gestion de base de données relationnelle (SGBDR) utilisé avec PHP pour stocker des données.
-Base de données NoSQL orientée documents, utilisée pour stocker et gérer des données de manière flexible.
-Système d'exploitation open source prisé pour sa stabilité et sa flexibilité dans les environnements serveur.
-Langage de programmation polyvalent, utilisé pour le développement web, la science des données, l'automatisation, etc.
-Cadre de développement open source de Google pour créer des applications multiplateformes avec un seul code source. -->

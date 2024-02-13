@@ -99,4 +99,79 @@ Linux
 Python
 Flutter
 
-*//*# sourceMappingURL=a-propos.css.map */
+*/
+@media only screen and (max-width: 1600px) {
+  .body .main .a-propos .a-propos-container .cloud-container .cloud .skill:hover img.skill-icon {
+    transform: translateY(-3rem);
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .body .main .a-propos .a-propos-container .cloud-container .cloud .skill:hover img.skill-icon {
+    transform: translateY(-3.5rem);
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .body .main .a-propos .a-propos-container {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    gap: 2rem;
+  }
+  .body .main .a-propos .a-propos-container .a-propos-description .content {
+    padding-left: 0;
+    max-width: 80%;
+  }
+  .body .main .a-propos .a-propos-container .cloud-container .cloud .skill:hover img.skill-icon {
+    transform: translateY(-3rem);
+  }
+}
+@media only screen and (max-width: 1070px) {
+  .body .main .a-propos {
+    padding: 2rem 0.5rem 4rem 0.5rem;
+  }
+  .body .main .a-propos .a-propos-container {
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+  }
+  .body .main .a-propos .a-propos-container .a-propos-description .content {
+    padding-left: 0;
+    max-width: 60%;
+  }
+  .body .main .a-propos .a-propos-container .cloud-container .cloud .skill:hover img.skill-icon {
+    transform: translateY(-3rem);
+  }
+}
+@media only screen and (max-width: 1070px) {
+  .body .main .a-propos {
+    padding: 2rem 0.5rem 4rem 0.5rem;
+  }
+  .body .main .a-propos .a-propos-container {
+    grid-template-columns: 90%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .body .main .a-propos .a-propos-container {
+    grid-template-columns: 60%;
+  }
+  .body .main .a-propos .a-propos-container .cloud-container .cloud {
+    height: 50rem;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(5, auto);
+  }
+  .body .main .a-propos .a-propos-container .cloud-container .cloud .skill {
+    padding: 0 1.5rem;
+  }
+  .body .main .a-propos .a-propos-container .cloud-container .cloud .skill:hover img.skill-icon {
+    transform: translateY(-2rem);
+  }
+}
+@media only screen and (max-width: 640px) {
+  .body .main .a-propos .a-propos-container {
+    grid-template-columns: 75%;
+  }
+}/*# sourceMappingURL=a-propos.css.map */

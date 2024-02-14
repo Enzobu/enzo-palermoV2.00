@@ -1,10 +1,8 @@
 .body {
-    // overflow-x: hidden;
     & .main {
         & .projets {
             overflow: hidden;
             font-family: 'Roboto', serif;
-            // background: linear-gradient(135deg, black, #220033);
 
             background: #2b343c;
             align-items: center;
@@ -36,6 +34,7 @@
                 overflow: hidden;
                 pointer-events: none;
                 margin-top: 2rem;
+                user-select: none;
             }
     
             .carousel-item {
@@ -190,6 +189,172 @@
             .cursor2 {
                 --size: 2px;
                 transition-duration: .7s;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .body {
+        & .main {
+            & .projets {
+                .carousel-item {
+                    .title {
+                        font-size: 1rem;
+                    }
+        
+                    .card-description {
+                        font-size: .8rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .body {
+        & .main {
+            & .projets {
+                .carousel-item {
+                    .title {
+                        font-size: 1rem;
+                    }
+        
+                    .card-description {
+                        font-size: .75rem;
+                    }
+
+                    .card-image {
+                        img {
+                            top: 7rem;
+                            left: 10%;
+                            width: 80%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .body {
+        & .main {
+            & .projets {
+                .carousel-item {
+                    --width: clamp(150px, 36vw, 300px);
+                    --height: clamp(200px, 48vw, 400px);
+
+                    .title {
+                        font-size: 1rem;
+                    }
+        
+                    .card-description {
+                        font-size: .75rem;
+                    }
+
+                    .card-image {
+                        img {
+                            top: 7rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .body {
+        & .main {
+            & .projets {
+                .carousel-item {
+                    .title {
+                        font-size: .9rem;
+                    }
+        
+                    .card-description {
+                        top: 2.4rem;
+                        font-size: .70rem;
+                    }
+
+                    .card-image {
+                        img {
+                            top: 6rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .body {
+        & .main {
+            & .projets {
+                .carousel-item {
+                    .links {
+                        bottom: .7rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .body {
+        & .main {
+            & .projets {
+                .carousel-item {
+                    .title {
+                        top: .25rem;
+                    }
+        
+                    .card-description {
+                        top: 1.75rem;
+                    }
+        
+                    .card-image {
+                        img {
+                            top: 5.6rem;
+                        }
+                    }
+                    .links {
+                        transform: scale(.9);
+                        bottom: .5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .body {
+        & .main {
+            & .projets {
+                .carousel-item {
+                    --width: clamp(150px, 37.5vw, 300px);
+                    --height: clamp(200px, 50vw, 400px);
+
+                    .title {
+                        font-size: .85rem;
+                    }
+                    
+                    .card-description {
+                        top: 1.6rem;
+                        font-size: .6rem;
+                    }
+        
+                    .card-image {
+                        img {
+                            top: 4.8rem;
+                        }
+                    }
+                }
             }
         }
     }

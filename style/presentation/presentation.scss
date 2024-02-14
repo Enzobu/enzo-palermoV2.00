@@ -102,6 +102,19 @@
                         &:hover {
                             color: #fff;
                         }
+
+                        &:nth-child(6),
+                        &:nth-child(7),
+                        &:nth-child(8),
+                        &:nth-child(9),
+                        &:nth-child(10),
+                        &:nth-child(11),
+                        &:nth-child(12),
+                        &:nth-child(13),
+                        &:nth-child(14),
+                        &:nth-child(15) {
+                            display: none;
+                        }
                     }
                 }
                 & .texte-container {
@@ -189,3 +202,173 @@
         }
     }
 }   
+
+
+@media only screen and (max-width: 1000px) {
+    .body {
+        & .main {
+            & .presentation {
+                & .top-center-presentation {
+                    & .nums-ligne {
+                        & .num-ligne {
+                            &:nth-child(6),
+                            &:nth-child(7),
+                            &:nth-child(8),
+                            &:nth-child(9),
+                            &:nth-child(10),
+                            &:nth-child(11) {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .body {
+        & .main {
+            & .presentation {
+                & .top-center-presentation {
+                    & .nums-ligne {
+                        & .num-ligne {
+                            &:nth-child(6),
+                            &:nth-child(7) {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 533px) {
+    .body {
+        & .main {
+            & .presentation {
+                & .top-center-presentation {
+                    & .nums-ligne {
+                        & .num-ligne {
+                            &:nth-child(8) {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    .body {
+        & .main {
+            & .presentation {
+                & .top-center-presentation {
+                    & .nums-ligne {
+                        & .num-ligne {
+                            &:nth-child(9) {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 381px) {
+    .body {
+        & .main {
+            & .presentation {
+                & .top-center-presentation {
+                    & .nums-ligne {
+                        & .num-ligne {
+                            &:nth-child(10) {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 348px) {
+    .body {
+        & .main {
+            & .presentation {
+                & .top-center-presentation {
+                    & .nums-ligne {
+                        & .num-ligne {
+                            &:nth-child(11) {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 333px) {
+    .body {
+        & .main {
+            & .presentation {
+                & .top-center-presentation {
+                    & .nums-ligne {
+                        & .num-ligne {
+                            &:nth-child(12) {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 311px) {
+    .body {
+        & .main {
+            & .presentation {
+                & .top-center-presentation {
+                    & .nums-ligne {
+                        & .num-ligne {
+                            &:nth-child(13) {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 278px) {
+    .body {
+        & .main {
+            & .presentation {
+                & .top-center-presentation {
+                    & .nums-ligne {
+                        & .num-ligne {
+                            &:nth-child(14),
+                            &:nth-child(15) {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

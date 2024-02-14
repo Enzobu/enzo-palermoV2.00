@@ -88,6 +88,9 @@
 .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:hover {
   color: #fff;
 }
+.body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(6), .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(7), .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(8), .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(9), .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(10), .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(11), .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(12), .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(13), .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(14), .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(15) {
+  display: none;
+}
 .body .main .presentation .top-center-presentation .texte-container {
   grid-area: texte;
   width: 90%;
@@ -146,5 +149,50 @@
   .body .presentation .top-left-presentation .img-presentation .cadre-image {
     width: 12rem !important;
     height: 12rem !important;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(6), .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(7), .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(8), .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(9), .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(10), .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(11) {
+    display: none;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(6), .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(7) {
+    display: block;
+  }
+}
+@media only screen and (max-width: 533px) {
+  .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(8) {
+    display: block;
+  }
+}
+@media only screen and (max-width: 435px) {
+  .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(9) {
+    display: block;
+  }
+}
+@media only screen and (max-width: 381px) {
+  .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(10) {
+    display: block;
+  }
+}
+@media only screen and (max-width: 348px) {
+  .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(11) {
+    display: block;
+  }
+}
+@media only screen and (max-width: 333px) {
+  .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(12) {
+    display: block;
+  }
+}
+@media only screen and (max-width: 311px) {
+  .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(13) {
+    display: block;
+  }
+}
+@media only screen and (max-width: 278px) {
+  .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(14), .body .main .presentation .top-center-presentation .nums-ligne .num-ligne:nth-child(15) {
+    display: block;
   }
 }/*# sourceMappingURL=presentation.css.map */

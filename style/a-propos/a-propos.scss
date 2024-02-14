@@ -295,3 +295,122 @@ Flutter
         }
     }
 }
+
+@media only screen and (max-width: 530px) {
+    .body {
+        & .main {
+            & .a-propos {
+                & .a-propos-container {
+                    grid-template-columns: 80%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .body {
+        & .main {
+            & .a-propos {
+                & .a-propos-container {
+                    grid-template-columns: 85%;
+
+                    & .cloud-container {
+                        & .cloud {
+                            & .skill {
+                                padding: 0 .75rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .body {
+        & .main {
+            & .a-propos {
+                & .a-propos-container {
+                    grid-template-columns: 100%;
+
+                    & .cloud-container {
+                        & .cloud {
+                            gap: .5rem;
+                            & .skill {
+                                padding: 0 .5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .body {
+        & .main {
+            & .a-propos {
+                & .a-propos-container {
+
+                    & .cloud-container {
+                        & .cloud {
+                            gap: .1rem;
+                            & .skill {
+                                & .description-skill {
+                                    font-size: .75rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 295px) {
+    .body {
+        & .main {
+            & .a-propos {
+                & .a-propos-container {
+                    & .cloud-container {
+                        & .cloud {
+                            & .skill {
+                                &:hover {
+                                    & img.skill-icon {
+                                        transform: translateY(-2.25rem);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    .body {
+        & .main {
+            & .a-propos {
+                & .a-propos-container {
+                    & .cloud-container {
+                        & .cloud {
+                            & .skill {
+                                &:hover {
+                                    & img.skill-icon {
+                                        transform: translateY(-3rem);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

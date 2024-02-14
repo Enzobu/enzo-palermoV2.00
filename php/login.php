@@ -5,12 +5,17 @@
     <link rel="stylesheet" href="/style/login/login.css">
     <title>Document</title>
 </head>
-<body class="body">
-    <header class="header">
+<body class="body" id="body">
+    <header class="header" id="header">
         <?php include('part/header.php'); ?>
     </header>
 
     <main class="main">
+        <div class="burger-button" id="burgerButton">
+            <div class="burger"></div>
+            <div class="burger"></div>
+            <div class="burger"></div>
+        </div>
         <div class="login-form-container">
             <form action="" class="login-form" method="POST">
                 <div class="form-titre">USER LOGIN</div>
@@ -38,5 +43,6 @@
     <footer class="footer">
         <?php include('part/footer.php'); ?>
     </footer>
+    <script src="/js/navBar.js"></script>
 </body>
 </html>

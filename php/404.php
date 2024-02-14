@@ -5,12 +5,17 @@
     <link rel="stylesheet" href="/style/404/404.css">
     <title>Document</title>
 </head>
-<body class="body">
-    <header class="header">
+<body class="body" id="body">
+    <header class="header" id="header">
         <?php include('part/header.php'); ?>
     </header>
 
     <main class="main">
+        <div class="burger-button" id="burgerButton">
+            <div class="burger"></div>
+            <div class="burger"></div>
+            <div class="burger"></div>
+        </div>
         <div class="err-404-container">
             <h1 class="title">404 ;(</h1>
             <h2 class="sub-title">La page demandée n'existe pas ...</h2>
@@ -23,5 +28,6 @@
     <footer class="footer">
         <?php include('part/footer.php'); ?>
     </footer>
+    <script src="/js/navBar.js"></script>
 </body>
 </html>

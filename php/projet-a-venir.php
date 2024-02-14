@@ -5,8 +5,8 @@
     <link rel="stylesheet" href="/style/projet-a-venir/projet-a-venir.css">
     <title>Document</title>
 </head>
-<body class="body">
-    <header class="header">
+<body class="body" id="body">
+    <header class="header" id="header">
         <?php include('part/header.php'); ?>
     </header>
 
@@ -15,6 +15,9 @@
             Projet bientôt disponible !
         </div>
     </main>
-
+    <footer class="footer">
+        <?php include('part/footer.php'); ?>
+    </footer>
+    <script src="/js/navBar.js"></script>
 </body>
 </html>

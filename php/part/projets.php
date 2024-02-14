@@ -24,7 +24,7 @@
                             <img src="/images/projets/github.svg" alt="">
                         </div>
                     </a>
-                    <a href="/projet-a-venir" target="blank">
+                    <a href="https://workshop-sn1.enzo-palermo.com" target="blank">
                         <div class="card-button">
                             <img src="/images/projets/voir.svg" alt="">
                         </div>
@@ -50,7 +50,7 @@
                             <img src="/images/projets/github.svg" alt="">
                         </div>
                     </a>
-                    <a href="/projet-a-venir" target="blank">
+                    <a href="https://projet-neptune.enzo-palermo.com" target="blank">
                         <div class="card-button">
                             <img src="/images/projets/voir.svg" alt="">
                         </div>
@@ -68,15 +68,14 @@
                 </div>
                 <p class="card-description">
                     Hi-mix est un projet visant à réaliser le site de la marque :
-                    un site de vente d'alimentation sportive. Il à été développer
-
+                    un site de vente d'alimentation sportive.
                 <div class="links">
                     <a href="https://github.com/Enzobu/Hi-mix" target="blank">
                         <div class="card-button">
                             <img src="/images/projets/github.svg" alt="">
                         </div>
                     </a>
-                    <a href="/projet-a-venir" target="blank">
+                    <a href="https://hi-mix.enzo-palermo.com" target="blank">
                         <div class="card-button">
                             <img src="/images/projets/voir.svg" alt="">
                         </div>
@@ -102,7 +101,7 @@
                             <img src="/images/projets/github.svg" alt="">
                         </div>
                     </a>
-                    <a href="/projet-a-venir" target="blank">
+                    <a href="https://enzo-palermo-v1.enzo-palermo.com" target="blank">
                         <div class="card-button">
                             <img src="/images/projets/voir.svg" alt="">
                         </div>
@@ -127,7 +126,7 @@
                             <img src="/images/projets/github.svg" alt="">
                         </div>
                     </a>
-                    <a href="https://climat-2030.org" target="blank">
+                    <a href="https://climat-2030.enzo-palermo.com" target="blank">
                         <div class="card-button">
                             <img src="/images/projets/voir.svg" alt="">
                         </div>
@@ -153,7 +152,7 @@
                             <img src="/images/projets/github.svg" alt="">
                         </div>
                     </a>
-                    <a href="/projet-a-venir" target="blank">
+                    <a href="https://workshop-sn2.enzo-palermo.com" target="blank">
                         <div class="card-button">
                             <img src="/images/projets/voir.svg" alt="">
                         </div>
@@ -172,7 +171,7 @@
                             <img src="/images/projets/github.svg" alt="">
                         </div>
                     </a>
-                    <a href="/projet-a-venir" target="blank">
+                    <a href="https://enzo-palermo.com" target="blank">
                         <div class="card-button">
                             <img src="/images/projets/voir.svg" alt="">
                         </div>

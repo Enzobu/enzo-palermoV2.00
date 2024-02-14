@@ -1,4 +1,5 @@
 <nav class="nav">
+    <div class="blur" id="blur"></div>
     <ul class="nav-list">
         <li class="left-link">
             <ul class="sub-nav-list">
@@ -21,3 +22,8 @@
         </li>
     </ul>
 </nav>
+
+<div class="cross-button" id="crossButton">
+    <div class="cross cross-bar-left"></div>
+    <div class="cross cross-bar-right"></div>
+</div>

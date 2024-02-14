@@ -8,12 +8,17 @@
     <link rel="stylesheet" href="style/cv/cv.css">
     <title>Document</title>
 </head>
-<body class="body">
-    <header class="header">
+<body class="body" id="body">
+    <header class="header" id="header">
         <?php include('part/header.php'); ?>
     </header>
 
     <main class="main">
+        <div class="burger-button" id="burgerButton">
+            <div class="burger"></div>
+            <div class="burger"></div>
+            <div class="burger"></div>
+        </div>
         <section class="presentation" id="presentation">
             <?php include('part/presentation.php'); ?>
         </section>
@@ -31,5 +36,6 @@
     <footer class="footer">
         <?php include('part/footer.php'); ?>
     </footer>
+    <script src="/js/navBar.js"></script>
 </body>
 </html>

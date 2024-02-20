@@ -6,7 +6,8 @@ const MAPPING = [
     'contact' => 'php/contact.php',
     'cv' => 'php/cv.php',
     '404' => 'php/404.php',
-    'projet-a-venir' => 'php/projet-a-venir.php'
+    'projet-a-venir' => 'php/projet-a-venir.php',
+    'projets/workshop-sn1' => 'php/projets/workshop-sn1.php'
 ];
 
 function getFileFromUrl(){

@@ -24,7 +24,7 @@
                             <img src="/images/projets/github.svg" alt="">
                         </div>
                     </a>
-                    <a href="https://workshop-sn1.enzo-palermo.com" target="blank">
+                    <a href="/projets/workshop-sn1">
                         <div class="card-button">
                             <img src="/images/projets/voir.svg" alt="">
                         </div>
@@ -152,7 +152,8 @@
                             <img src="/images/projets/github.svg" alt="">
                         </div>
                     </a>
-                    <a href="https://workshop-sn2.enzo-palermo.com" target="blank">
+                    <a href="/projet-a-venir" target="blank">
+                    <!-- <a href="https://workshop-sn2.enzo-palermo.com" target="blank"> -->
                         <div class="card-button">
                             <img src="/images/projets/voir.svg" alt="">
                         </div>

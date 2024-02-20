@@ -2,11 +2,12 @@
 <html lang="fr">
 <head>
     <?php include('part/head.php'); ?>
+    <link rel="stylesheet" href="style/index/index.css">
     <link rel="stylesheet" href="style/presentation/presentation.css">
     <link rel="stylesheet" href="style/projets/projets.css">
     <link rel="stylesheet" href="style/a-propos/a-propos.css">
     <link rel="stylesheet" href="style/cv/cv.css">
-    <title>Document</title>
+    <title>Portfolio - Enzo Palermo</title>
 </head>
 <body class="body" id="body">
     <header class="header" id="header">

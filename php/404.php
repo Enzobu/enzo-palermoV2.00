@@ -3,7 +3,7 @@
 <head>
     <?php include('part/head.php'); ?>
     <link rel="stylesheet" href="/style/404/404.css">
-    <title>Document</title>
+    <title>404</title>
 </head>
 <body class="body" id="body">
     <header class="header" id="header">

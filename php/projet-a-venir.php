@@ -3,7 +3,7 @@
 <head>
     <?php include('part/head.php'); ?>
     <link rel="stylesheet" href="/style/projet-a-venir/projet-a-venir.css">
-    <title>Document</title>
+    <title>Projet à venir</title>
 </head>
 <body class="body" id="body">
     <header class="header" id="header">

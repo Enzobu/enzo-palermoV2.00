@@ -3,7 +3,7 @@
 <head>
     <?php include('part/head.php'); ?>
     <link rel="stylesheet" href="/style/login/login.css">
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body class="body" id="body">
     <header class="header" id="header">

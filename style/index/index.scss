@@ -1,0 +1,25 @@
+.body {
+    & .main {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas: 
+            "prese"
+            "projets"
+            "a-propos"
+            "cv";
+    
+        & .presentation {
+            grid-area: prese;
+        }
+        & .projets {
+            grid-area: projets;
+        }
+        & .a-propos {
+            grid-area: a-propos;
+        }
+        & .cv {
+            grid-area: cv;
+        }
+    }
+}

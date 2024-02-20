@@ -1,0 +1,33 @@
+.body {
+  background: linear-gradient(to bottom, #101c29, #2c3d4b);
+}
+.body .main {
+  padding: 15rem 1.5rem 5rem 1.5rem;
+  max-width: 800px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body .main section {
+  margin-top: 5rem;
+  width: 100%;
+}
+.body .main section .description {
+  text-align: justify;
+  margin-top: 1.5rem;
+}
+.body .main section.idee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body .main section.idee .title, .body .main section.idee .description {
+  width: 100%;
+  text-align: justify !important;
+}
+.body .main section.idee iframe {
+  margin-top: 3rem;
+}/*# sourceMappingURL=workshop-sn1.css.map */

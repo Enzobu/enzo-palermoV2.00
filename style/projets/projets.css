@@ -26,7 +26,6 @@
   position: relative;
   z-index: 1;
   height: 80vh;
-  overflow: hidden;
   pointer-events: none;
   margin-top: 2rem;
   -webkit-user-select: none;

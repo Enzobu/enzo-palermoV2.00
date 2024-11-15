@@ -85,7 +85,7 @@ const handleMouseUp = () => {
 /*--------------------
 Listeners
 --------------------*/
-document.addEventListener('mousewheel', handleWheel)
+document.addEventListener('wheel', handleWheel)
 document.addEventListener('mousedown', handleMouseDown)
 document.addEventListener('mousemove', handleMouseMove)
 document.addEventListener('mouseup', handleMouseUp)

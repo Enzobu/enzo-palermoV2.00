@@ -219,7 +219,8 @@
                 <div class="background"></div>
             </div>
         </div>
-        <div class="carousel-item">
+        
+        <!-- <div class="carousel-item">
             <div class="carousel-box">
                 <div class="title">-</div>
                 <div class="links">
@@ -227,7 +228,7 @@
                         <div class="card-button no-github">
                             <img src="/images/projets/github.svg" alt="">
                         </div>
-                    </a>
+                    </a>    
                     <a href="/projet-a-venir" target="blank">
                         <div class="card-button">
                             <img src="/images/projets/voir.svg" alt="">
@@ -236,7 +237,7 @@
                 </div>
                 <div class="background"></div>
             </div>
-        </div>
+        </div> -->
     </div>
 
     <div class="cursor"></div>

@@ -24,7 +24,8 @@
                             <img src="/images/projets/github.svg" alt="">
                         </div>
                     </a>
-                    <a href="/projets/workshop-sn1">
+                    <a href="/projet-a-venir" target="blank">
+                    <!-- <a href="/projets/workshop-sn1"> -->
                         <div class="card-button">
                             <img src="/images/projets/voir.svg" alt="">
                         </div>
@@ -50,7 +51,8 @@
                             <img src="/images/projets/github.svg" alt="">
                         </div>
                     </a>
-                    <a href="https://projet-neptune.enzo-palermo.com" target="blank">
+                    <a href="/projet-a-venir" target="blank">
+                    <!-- <a href="https://projet-neptune.enzo-palermo.com" target="blank"> -->
                         <div class="card-button">
                             <img src="/images/projets/voir.svg" alt="">
                         </div>
@@ -75,7 +77,8 @@
                             <img src="/images/projets/github.svg" alt="">
                         </div>
                     </a>
-                    <a href="https://hi-mix.enzo-palermo.com" target="blank">
+                    <a href="/projet-a-venir" target="blank">
+                    <!-- <a href="https://hi-mix.enzo-palermo.com" target="blank"> -->
                         <div class="card-button">
                             <img src="/images/projets/voir.svg" alt="">
                         </div>
@@ -101,7 +104,8 @@
                             <img src="/images/projets/github.svg" alt="">
                         </div>
                     </a>
-                    <a href="https://enzo-palermo-v1.enzo-palermo.com" target="blank">
+                    <a href="/projet-a-venir" target="blank">
+                    <!-- <a href="https://enzo-palermo-v1.enzo-palermo.com" target="blank"> -->
                         <div class="card-button">
                             <img src="/images/projets/voir.svg" alt="">
                         </div>
@@ -126,7 +130,8 @@
                             <img src="/images/projets/github.svg" alt="">
                         </div>
                     </a>
-                    <a href="https://climat-2030.enzo-palermo.com" target="blank">
+                    <a href="/projet-a-venir" target="blank">
+                    <!-- <a href="https://climat-2030.enzo-palermo.com" target="blank"> -->
                         <div class="card-button">
                             <img src="/images/projets/voir.svg" alt="">
                         </div>
@@ -192,6 +197,7 @@
                         </div>
                     </a>
                     <a href="/projet-a-venir" target="blank">
+                    <!-- <a href="/projet-a-venir" target="blank"> -->
                         <div class="card-button">
                             <img src="/images/projets/voir.svg" alt="">
                         </div>
@@ -211,6 +217,7 @@
                         </div>
                     </a>
                     <a href="/projet-a-venir" target="blank">
+                    <!-- <a href="/projet-a-venir" target="blank"> -->
                         <div class="card-button">
                             <img src="/images/projets/voir.svg" alt="">
                         </div>

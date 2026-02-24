@@ -1,4 +1,4 @@
-const text = "Je suis étudiant en seconde année à l'EPSI Montpellier en spécialité développeur. J'aime beaucoup le développement web. Si vous voulez en savoir d'avantage, regardez en dessous ! :)";
+const text = "Je suis étudiant en quatrième année à l'EPSI Montpellier en spécialité développeur. Je suis développeur backend chez CA-TS. Si vous voulez en savoir d'avantage, regardez en dessous ! :)";
 const textContainer = document.getElementById("texte");
 let index = 0;
 
